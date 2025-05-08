@@ -1,0 +1,12 @@
+# Docker volumes e cache
+volumes/
+*.log
+*.pid
+
+# Arquivos temporários do sistema
+*.DS_Store
+Thumbs.db
+
+# Ignorar dados locais e banco
+db/
+nextcloud/
