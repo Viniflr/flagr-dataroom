@@ -1,4 +1,4 @@
-version: '3.7'
+version: "3.7"
 
 services:
   db:
@@ -26,6 +26,7 @@ services:
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
       - MYSQL_HOST=db
+      - NEXTCLOUD_TRUSTED_DOMAINS=54.159.135.147:8080
     restart: always
 
 volumes:
